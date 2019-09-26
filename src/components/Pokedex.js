@@ -22,6 +22,9 @@ export default class Pokedex extends React.Component{
         return(
             <div className="Pokedex">
                 <h1>Pokedex!</h1>
+                {/* it will show the experience */}
+                <p>Total Experience: {this.props.exp}</p>
+                <p>{this.props.isWinner ? 'Winner!' : 'Loser!'}</p>
                 {/* pokemon object defined as a default props */}
                 <div className="Pokedex-cards">
                     {/* iterate */}
