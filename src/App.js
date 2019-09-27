@@ -4,7 +4,8 @@ import './App.css';
 // import Pokecard from './components/Pokecard'
 // import Pokedex from './components/Pokedex';
 import Pokegame from './components/Pokegame'
-import Pokedex from './components/Pokedex';
+// import Pokedex from './components/Pokedex';
+// import './Pokecard.css';
 
 
 function App() {
